@@ -1,6 +1,6 @@
 ## Site settings
 title: "An Introduction to Mapping and Spatial Analysis with QGIS"
-description: "Learn the basics of GIS with open source software, QGIS (https://qgis.org)."
+description: "Workshops and guides from the Map & Data Library, University of Toronto."
 url: "https://MDLutoronto.github.io/qgis-mapping-spatial-analysis-intro" # change the slug to the repo's name ('jtd-template' in this case)
 repository: "MDLutoronto/qgis-mapping-spatial-analysis-intro" # for github-metadata
 ## Navigation footer logos and links
