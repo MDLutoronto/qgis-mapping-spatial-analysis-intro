@@ -39,3 +39,8 @@ lab computers in several of UofT's libraries.</a>
 in contact with the Map and Data Library</a>.</b>
 
 <img src='{{ '/assets/images/qgis-logo.png' | relative_url }}' alt="QGIS logo" width='100%' height='100%' />
+
+**Techniques:** [Spatial analysis](https://mdlutoronto.github.io/tutorials-search/?technique=Spatial-analysis),
+[Mapping](https://mdlutoronto.github.io/tutorials-search/?technique=Mapping) \|
+**Tools:** [QGIS](https://mdlutoronto.github.io/tutorials-search/?tool=QGIS) \|
+**Data Format:** [Vector](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Vector)
