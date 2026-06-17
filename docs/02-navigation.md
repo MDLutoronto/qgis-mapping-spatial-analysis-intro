@@ -25,7 +25,7 @@ be adjusted to zoom in or out.
 ## Bookmarks
 <b>Bookmarks</b> let us save map locations and scales.
 
-Go to <b>View -> Show Spatial Bookmarks</b>.
+Go to <b>View → Show Spatial Bookmarks</b>.
 <img src='{{ '/assets/images/show-spatial-bookmarks.png' | relative_url }}' alt="Spatial bookmarks." width='100%' height='100%' />
 
 Expand the <b>Project Bookmarks</b> heading.

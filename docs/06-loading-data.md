@@ -32,16 +32,16 @@ Shapefiles are one of the most common vector file formats used in GIS.
 • In the Data Source Manager, click the three dots next to the Vector
  Datasets(s) box.
 
-<img src='{{ '/assets/images/data-source-manager.png' | relative_url }}' alt="Add vector layer" width='100%' height='100%' />
+<img src='{{ '/assets/images/data-source-manager.png' | relative_url }}' alt="Click the three dots next to the Vector Dataset(s) box" width='100%' height='100%' />
 
 • Browse to the <b>Data → Shapefiles → Streets</b> folder. Select
 <b>streets_utm_zone_17.shp.</b> Click <b>Open.</b>
 
-<img src='{{ '/assets/images/streets-shp.png' | relative_url }}' alt="Add vector layer" width='100%' height='100%' />
+<img src='{{ '/assets/images/streets-shp.png' | relative_url }}' alt="Browsing to the shapefile" width='100%' height='100%' />
 
 • Click <b>Add</b>. Close the Data Source Manager.
 
-<img src='{{ '/assets/images/streets-shp-add.png' | relative_url }}' alt="Add vector layer" width='100%' height='100%' />
+<img src='{{ '/assets/images/streets-shp-add.png' | relative_url }}' alt="Add the layer, close the Data Source Manager window" width='100%' height='100%' />
 
 • Result: A new spatial layer, representing Toronto's street network, has been
 added to the map. (<i>Note: This dataset was obtained from the City of Toronto's
@@ -49,7 +49,7 @@ Open Data website here:
 <a href="https://open.toronto.ca/dataset/toronto-centreline-tcl/">
 https://open.toronto.ca/dataset/toronto-centreline-tcl/</a>)
 
-<img src='{{ '/assets/images/streets-layer-added.png' | relative_url }}' alt="Add vector layer" width='100%' height='100%' />
+<img src='{{ '/assets/images/streets-layer-added.png' | relative_url }}' alt="Toronto streets layer in the map canvas" width='100%' height='100%' />
 
 ## Spreadsheets
 Data can be imported into GIS from spreadsheets (.csv, .xlsx, etc.) Spreadsheets
@@ -71,40 +71,40 @@ associated with it, in columns called 'lat' and 'lon', respectively.
 Close the spreadsheet.
 
 <img src='{{ '/assets/images/bike-share-spreadsheet.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' height='100%' />
+alt="Viewing spreadsheet data - coordinates" width='100%' height='100%' />
 
 • In QGIS, click <b>Layer → Add Layer → Add Delimited Text Layer.</b>
 
 <img src='{{ '/assets/images/add-delimited-text-layer.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' height='100%' />
+alt="Layer → Add Layer → Add Delimited Text Layer" width='100%' height='100%' />
 
 • Click the three dots next to the <b>File name</b> box.
 
 <img src='{{ '/assets/images/data-source-delimited-text.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' height='100%' />
+alt="Click the three dots next to the File name box" width='100%' height='100%' />
 
 • Navigate to <b>bike_share_stations.csv</b> and click <b>Open.</b>
 
 <img src='{{ '/assets/images/open-bike-share-csv.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' height='100%' />
+alt="Navigate to and open the spreadsheet" width='100%' height='100%' />
 
 • Under the <b>Geometry definition</b> heading, click <b>Point coordinates</b>.
 Make sure <b>lon</b> has been selected for the <b>X field</b>, and <b>lat</b>
 has been selected for the <b>Y field</b>.
 
 <img src='{{ '/assets/images/geometry-definition-points.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' height='100%' />
+alt="Set up the geometry definition - lat and lon" width='100%' height='100%' />
 
 • Click <b>Add</b>. Close the Data Source Manager.
 
 <img src='{{ '/assets/images/add-delimited-2.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' height='100%' />
+alt="Add the layer, close the Data Source Manager window" width='100%' height='100%' />
 
 • Result: a point layer showing bike share station locations has been
 added to the map.
 
 <img src='{{ '/assets/images/bike-share-points.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' height='100%' />
+alt="Point layer on map canvas" width='100%' height='100%' />
 
 ### Add data from a spreadsheet with geocoding
 <b>Geocoding</b> attempts to match natural language street addresses to a
@@ -122,38 +122,38 @@ alt="Viewing spreadsheet data" width='100%' height='100%' />
 • Note the columns containing street address information. Close the spreadsheet.
 
 <img src='{{ '/assets/images/libraries-spreadsheet-columns.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' height='100%' />
+alt="Columns containing street address info - StreetAddress, City, Province, PostalCode" width='100%' height='100%' />
 
 • In QGIS, select <b>MMQGIS → Geocode → Geocode CSV with web service</b>.
 <i>(If you don't have this option, install the MMQGIS plugin as described in
 the <a href="../05-plugins">Plugins</a> section.)</i>
 
 <img src='{{ '/assets/images/geocode-with-web-service.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' height='100%' />
+alt="MMQGIS - Geocode CSV with web service"" width='100%' height='100%' />
 
 • Navigate to and select <b>toronto_public_libraries.csv</b> as the <b>Input
 CSV File</b>.
 
 <img src='{{ '/assets/images/csv-geocode.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='70%' />
+alt="Add the libraries csv as the input" width='70%' />
 
 • Select the <b>StreetAddress, City</b>, and <b>Province</b> columns for the Address, City,
 and State parameters (if QGIS hasn't already done this automatically).
 
 <img src='{{ '/assets/images/geocode-address-fields.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='70%' />
+alt="Tool parameters for Address, City, State" width='70%' />
 
 • Choose <b>OpenStreetMap/Nominatim</b> for the Web Service.
 
 <img src='{{ '/assets/images/geocoding-web-service.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='70%' />
+alt="Web Service - OpenStreetMap/Nominatim" width='70%' />
 
 • Save the geocoding results in the data folder as <b>library_geocode.shp</b>.
 Save the <b>Not Found Output Last</b> in the data folder as
 <b>library_geocode_errors.csv</b>. Click <b>Apply.</b>
 
 <img src='{{ '/assets/images/geocode-outputs.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='70%' />
+alt="Specify locations on your computer for the outputs" width='70%' />
 
 • QGIS may be unresponsive for a few moments while the plugin queries the
 web service. Once it has completed, however, a results message will be 
@@ -172,7 +172,7 @@ Attribute joins append columns from one table (layer) to another, based on a
 Joining data in this way is very common in GIS and in working with databases.
 
 <img src='{{ '/assets/images/table-join-example.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' />
+alt="Example of table join - two tables are united by a unique ID field" width='100%' />
 
 • Navigate to the Tables folder and open <b>socialhousing.csv.</b> This dataset
 shows the number of social housing units (including those that are rent geared
@@ -186,13 +186,13 @@ alt="Viewing spreadsheet data" width='100%' />
 City has designated. This number is stored in the <b>Neighbourhood</b> column.
 
 <img src='{{ '/assets/images/social-housing-csv-ids.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' />
+alt="Neighbourhood spreadsheet column containing unique numeric ID" width='100%' />
 
 • The Neighbourhoods polygon layer in QGIS also has this ID number in its 
 attribute table. It is stored in the <b>Neighbourhood ID</b> field.
 
 <img src='{{ '/assets/images/neighbourhood-id-qgis.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' />
+alt="Corresponding unique numeric ID in the shapefile attribute table" width='100%' />
 
 We'll use a join to attach the spreadsheet data to the polygon layer.
 
@@ -201,20 +201,20 @@ First, we'll add the CSV to the QGIS project:
 • Select <b>Layer → Add Layer → Add Delimited Text Layer</b>.
 
 <img src='{{ '/assets/images/add-delimited-text-layer.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' height='100%' />
+alt="Add Delimited Text Layer menu item" width='100%' height='100%' />
 
 • Navigate to and select <b>socialhousing.csv</b>. Choose no <b>Geometry
 (Attribute only table)</b>.
 
 <img src='{{ '/assets/images/delimited-text-no-geometry.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='100%' height='100%' />
+alt="Add non-spatial delimited text file" width='100%' height='100%' />
 
 • Click <b>Add</b>. Close the Data Source Manager. The csv will be added to the
 project as a table. It will be listed in the Layers panel, but nothing will be
 added to the map.
 
 <img src='{{ '/assets/images/layers-tables.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='60%' height='100%' />
+alt="Add the speadsheet, close the Data Source Manager window" width='60%' height='100%' />
 
 ### Create the join:
 
@@ -222,27 +222,27 @@ alt="Viewing spreadsheet data" width='60%' height='100%' />
 <b>Properties</b>.
 
 <img src='{{ '/assets/images/neighbourhood-layer-properties.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='60%' height='100%' />
+alt="Neighbourhoods layer properties" width='60%' height='100%' />
 
 • Click the <b>Joins</b> tab. Click the <b>+ (plus sign)</b> button.
 
 <img src='{{ '/assets/images/add-join.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='60%' height='100%' />
+alt="Properties → Add join" width='60%' height='100%' />
 
 • Choose <b>socialhousing</b> as the <b>Join layer</b>, <b>Neighbourhood</b>
 as the <b>Join field</b> and <b>ID</b> as the <b>Target field</b>. Click <b>OK.</b>
 
 <img src='{{ '/assets/images/join-parameters.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='60%' height='100%' />
+alt="Join parameters: Join layer = socialhousing, Join field = Neighbourhood, Target field = ID" width='60%' height='100%' />
 
 • Note that the join is now listed in the layer properties. Click OK to close
 the layer properties window.
 
 <img src='{{ '/assets/images/layer-properties-window.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='60%' height='100%' />
+alt="Layer properties window - click OK" width='60%' height='100%' />
 
 • Open the attribute table of the neighbourhoods layer. The social housing
 columns are now part of this table.
 
 <img src='{{ '/assets/images/joined-table-results.png' | relative_url }}'
-alt="Viewing spreadsheet data" width='60%' height='100%' />
+alt="Attribute table showing joined columns" width='60%' height='100%' />

@@ -21,7 +21,7 @@ We'll add two plugins to our installation of QGIS:
 Easily search for and add basemaps and other data layers from the web.
 
 • Click <b>Plugins</b> on the QGIS menu. Choose <b>Manage and Install Plugins</b>.
-<img src='{{ '/assets/images/plugins.png' | relative_url }}' alt="Plugins -> Manage and Install Plugins." width='100%' height='100%' />
+<img src='{{ '/assets/images/plugins.png' | relative_url }}' alt="Plugins → Manage and Install Plugins." width='100%' height='100%' />
 
 • In the Plugin Manager window, click the <b>All</b> tab. Search for
 <b>quickmapservices</b>.
@@ -40,4 +40,4 @@ This plugin contains a suite of various useful tools. We'll use it to perform ge
 <img src='{{ '/assets/images/search-mmqgis.png' | relative_url }}' alt="Searching for MMQGIS." width='100%' height='100%' />
 
 • Select the <b>mmqgis</b> item from the results and click <b>Install Plugin</b>. Close the Plugin Manager.
-<img src='{{ '/assets/images/install-mmqgis.png' | relative_url }}' alt="Searching for MMQGIS." width='100%' height='100%' />
+<img src='{{ '/assets/images/install-mmqgis.png' | relative_url }}' alt="Installing MMQGIS." width='100%' height='100%' />
