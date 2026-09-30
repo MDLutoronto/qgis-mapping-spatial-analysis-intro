@@ -20,5 +20,5 @@ O'Reilly Online Learning</a> (Log in with your UTORid to access. O'Reilly
 offers learning materials on a variety of tech and business topics, including
 GIS.)
 
-<b>• <a href="https://mdl.library.utoronto.ca/about/contact-form" target="_blank">
+<b>• <a href="https://library.utoronto.ca/contact-us/data-maps" target="_blank">
 Contact the Map and Data Library</a> for help with maps or data.</b>
