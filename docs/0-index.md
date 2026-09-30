@@ -35,7 +35,7 @@ lab computers in several of UofT's libraries.</a>
 
 
 <b>If you have any questions or encounter any issues, you are welcome to
-<a href="https://mdl.library.utoronto.ca/form/webform-5493" target="_blank">get
+<a href="https://library.utoronto.ca/contact-us/data-maps" target="_blank">get
 in contact with the Map and Data Library</a>.</b>
 
 <img src='{{ '/assets/images/qgis-logo.png' | relative_url }}' alt="QGIS logo" width='100%' height='100%' />
